@@ -4,7 +4,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>AquilaServer</Name>
     <RootNamespace>AquilaServer</RootNamespace>
-    <NameOfLastUsedPublishProfile>ProductionPublishProfile</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>PublishProfile</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -32,7 +32,7 @@
     <Compile Include="config.js" />
     <Compile Include="server.js" />
     <Content Include=".gitignore" />
-    <None Include="ProductionPublishProfile.pubxml" />
+    <None Include="PublishProfile.pubxml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
     <Content Include="package.json" />
