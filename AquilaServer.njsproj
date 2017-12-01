@@ -32,9 +32,6 @@
     <Compile Include="config.js" />
     <Compile Include="server.js" />
     <Content Include=".gitignore" />
-    <None Include="PublishProfile.pubxml" />
-    <Content Include="Web.config" />
-    <Content Include="Web.Debug.config" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
