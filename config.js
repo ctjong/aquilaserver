@@ -6,6 +6,7 @@ module.exports =
     storageConnectionString: process.env.CT_BLUEHAVEN_CONNECTIONSTRING,
     facebookAppSecret: process.env.CT_AQUILA_FBAPSECRET,
     facebookAppId: process.env.CT_AQUILA_FBAPPID,
+    appInsightsKey: process.env.APPINSIGHTS_INSTRUMENTATIONKEY,
     storageContainerName: "aquila",
     emailVerificationRequired: false,
     captchaEnabled: false,
