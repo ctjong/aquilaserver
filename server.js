@@ -1,8 +1,6 @@
-'use strict';
-var http = require('http');
-var port = process.env.PORT || 1337;
+var orion = require('orion-api');
+var config = require('./config');
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World\n');
-}).listen(port);
+orion.setConfig(config);
+var app = orion.createApiApp();
+orion.startApiApp(app);

@@ -10,5 +10,8 @@
   },
   "author": {
     "name": "chtjong"
+  },
+  "dependencies": {
+    "orion-api": "^1.0.17"
   }
 }
