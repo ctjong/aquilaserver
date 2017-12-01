@@ -30,6 +30,7 @@
   <ItemGroup>
     <Compile Include="config.js" />
     <Compile Include="server.js" />
+    <Content Include=".gitignore" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
     <Content Include="package.json" />
