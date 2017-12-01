@@ -1,0 +1,14 @@
+{
+  "name": "aquila-server",
+  "version": "0.0.0",
+  "description": "AquilaServer",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": "chtjong"
+  }
+}
