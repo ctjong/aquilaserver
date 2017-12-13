@@ -12,6 +12,7 @@
     "name": "chtjong"
   },
   "dependencies": {
-    "orion-api": "^1.0.18"
+    "express": "^4.16.2",
+    "orion-api": "^1.0.22"
   }
 }

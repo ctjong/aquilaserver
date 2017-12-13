@@ -1,6 +1,8 @@
+var express = require('express');
 var orion = require('orion-api');
 var config = require('./config');
 
+var app = new express();
 orion.setConfig(config);
-var app = orion.createApiApp();
+orion.setupApiEndpoints(app);
 orion.startApiApp(app);
