@@ -7,7 +7,6 @@ module.exports =
     },
     auth:
     {
-        tokenLifetimeInMins: Number.MAX_VALUE,
         secretKey: process.env.CT_AQUILA_SECRETKEY,
         salt: process.env.CT_AQUILA_SALT,
         passwordReqs:
