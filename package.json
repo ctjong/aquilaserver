@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "express": "^4.16.2",
-    "orion-api": "^1.1.6"
+    "orion-api": "^1.1.7"
   }
 }
