@@ -3,7 +3,7 @@ module.exports =
     database:
     {
         engine: "mssql",
-        connectionString: process.env.CT_BLACKROCK_CONNECTIONSTRING.replace("{db}", "aquila")
+        connectionString: process.env.CT_AQUILA_BLACKROCK_CONNSTRING
     },
     auth:
     {
@@ -21,7 +21,7 @@ module.exports =
     storage:
     {
         provider: "azure",
-        azureStorageConnectionString: process.env.CT_BLUEHAVEN_CONNECTIONSTRING,
+        azureStorageConnectionString: process.env.CT_BLUEHAVEN_CONNSTRING,
         azureStorageContainerName: "aquila"
     },
     monitoring:
