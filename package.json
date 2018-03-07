@@ -12,6 +12,6 @@
     "name": "chtjong"
   },
   "dependencies": {
-    "orion-api": "^1.2.2"
+    "orion-api": "^1.2.6"
   }
 }
